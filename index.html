@@ -5,22 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>COLOR PAGE</title>
+    <title>COLORS PAGE</title>
 </head>
 <body>
     <div id="header">
-        
-    </div>
 
+    </div>
     <form>
         <input type="color" id="color">
     </form>
-
-    <div>
+    <div id="result">
         <h2>Color Name: <span id="colorName">Black</span></h2>
+    </div>
+    <input type="text" id="addDescription" placeholder="description">
+    <button type="submit" id="add">Add</button>
+    <br><br><hr>
+   
+    <div id="allColors">
+
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="app-jquery.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
